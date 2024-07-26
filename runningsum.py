@@ -10,3 +10,15 @@
 # start at 3 and increment by 1, stop at number
 # if number is divisible by 3 and 5, add it to running sum once
 # sum = 0
+
+# my solution
+def solution(number):
+    running_sum = 0
+    for i in range(0, number, 1):
+        if i % 3 == 0 and i % 5 == 0:
+            running_sum += i
+        elif i % 3 == 0 or i % 5 == 0:
+            running_sum += i
+        elif i <= 0:
+            return 0
+    return running_sum
