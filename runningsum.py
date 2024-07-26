@@ -22,3 +22,14 @@ def solution(number):
         elif i <= 0:
             return 0
     return running_sum
+
+print(solution(12))
+print(solution(22))
+
+# other solutions
+
+# list comprehension
+
+def solution(number):
+    return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
+
