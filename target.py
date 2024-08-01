@@ -23,17 +23,17 @@
 
 # nums[2]
 
-def target(arr, tar):
-    output = []
-    running_sum = 0
-    for i in range(len(arr)):
-        if arr[i] <= tar:
-            # print(arr[i])
-            running_sum += arr[i]
-            output.append(i)
-    print(running_sum)
+# def target(arr, tar):
+#     output = []
+#     running_sum = 0
+#     for i in range(len(arr)):
+#         if arr[i] <= tar:
+#             # print(arr[i])
+#             running_sum += arr[i]
+#             output.append(i)
+#     print(running_sum)
 
-print(target([11, 2, 15, 8, 7], 9))
+# print(target([11, 2, 15, 8, 7], 9))
 
 
 # consider - two pointers binary search
