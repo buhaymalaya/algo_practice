@@ -44,4 +44,6 @@
 def two_sum(nums, target):
     num_to_index = {}  # Dictionary to store the index of each number
     
-   
+    for index, num in enumerate(nums):
+        complement = target - num
+        
