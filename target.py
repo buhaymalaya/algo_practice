@@ -40,3 +40,8 @@
 # running value
 # value = tar - current iterated value
 # 
+
+def two_sum(nums, target):
+    num_to_index = {}  # Dictionary to store the index of each number
+    
+   
