@@ -50,4 +50,8 @@ def two_sum(nums, target):
             return [num_to_index[complement], index]
         num_to_index[num] = index
     
-    
+    return None  # Just in case there's no solution, although the problem states there will be one
+
+# Example usage:
+print(two_sum([2, 7, 11, 15], 9))  # Output: [0, 1]
+print(two_sum([11, 2, 15, 8, 7], 9))  # Output: [1, 4]
